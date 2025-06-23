@@ -1,0 +1,318 @@
+{
+  "categories": [
+    {
+      "name": "Pasta",
+      "description": "All types of pasta",
+      "active": "Yes",
+      "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+      "id": "dcb5"
+    },
+    {
+      "name": "Pizza",
+      "description": "All types of pizza",
+      "active": "Yes",
+      "image": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg",
+      "id": "afdc"
+    },
+    {
+      "name": "Sandwich",
+      "description": "All types of sandwiches",
+      "active": "Yes",
+      "image": "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
+      "id": "3fcd"
+    },
+    {
+      "name": "Soup",
+      "description": "All types of soups",
+      "active": "Yes",
+      "image": "https://www.themealdb.com/images/media/meals/1529446137.jpg",
+      "id": "6dc0"
+    }
+  ],
+  "foodItems": [
+    {
+      "name": "Veg Pizza",
+      "description": "Veggies include onion, tomato, capsicum etc",
+      "inStock": "Yes",
+      "isVeg": "Yes",
+      "category": "Pizza",
+      "cuisine": "Italian",
+      "foodImage": "https://www.themealdb.com//images//media//meals//x0lk931587671540.jpg",
+      "id": "73ed"
+    },
+    {
+      "name": "Hot and Sour Soup",
+      "description": "Made with mushrooms, tofu, spring onions and chicken",
+      "inStock": "Yes",
+      "isVeg": "No",
+      "category": "Soup",
+      "cuisine": "Chinese",
+      "foodImage": "https://www.themealdb.com/images/media/meals/1529445893.jpg",
+      "id": "b4c7"
+    },
+    {
+      "name": "Lasagna Sandwich",
+      "description": "Bacon, sour cream, mozzarella cheese and white bread",
+      "inStock": "Yes",
+      "isVeg": "No",
+      "category": "Sandwich",
+      "cuisine": "Italian",
+      "foodImage": "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
+      "id": "a7d6"
+    },
+    {
+      "name": "Chick-Fil-A-Sandwich",
+      "description": "Chicken pattice, Egg, Milk &amp; Burger bun",
+      "inStock": "Yes",
+      "isVeg": "No",
+      "category": "Sandwich",
+      "cuisine": "Asian",
+      "foodImage": "https://www.themealdb.com/images/media/meals/sbx7n71587673021.jpg",
+      "id": "8748"
+    },
+    {
+      "name": "Grilled Mac and Cheese Sandwich",
+      "description": "Macaroni, Cheddar cheese, Jack cheese, Heavy cream &amp; white bread.",
+      "inStock": "Yes",
+      "isVeg": "Yes",
+      "category": "Sandwich",
+      "cuisine": "Asian",
+      "foodImage": "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg",
+      "id": "92ce"
+    },
+    {
+      "name": "Italian Pasta Salad",
+      "description": "Farfalle, olives, basil, cherry tomatoes, mozzarella cheese",
+      "inStock": "Yes",
+      "isVeg": "Yes",
+      "category": "Pasta",
+      "cuisine": "Italian",
+      "foodImage": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+      "id": "e2eb"
+    },
+    {
+      "name": "Creamy Tomato Soup",
+      "description": "Onion, tomatoes, celery leaves, vegetable stock, tomato puree, milk",
+      "inStock": "Yes",
+      "isVeg": "Yes",
+      "category": "Soup",
+      "cuisine": "Asian",
+      "foodImage": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg",
+      "id": "0aec"
+    }
+  ],
+  "cuisines": [
+    {
+      "name": "Italian",
+      "description": "All Italian food",
+      "active": "Yes",
+      "image": "https://images.unsplash.com/photo-1609582848349-215e8bf397d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aXRhbGlhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+      "id": "8fa9"
+    },
+    {
+      "name": "Asian",
+      "description": "All Asian foods",
+      "active": "Yes",
+      "image": "https://images.unsplash.com/photo-1622643944007-450264a5f9a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=844&q=80",
+      "id": "ccbd"
+    },
+    {
+      "name": "Chinese",
+      "description": "All chinese food",
+      "active": "Yes",
+      "image": "https://plus.unsplash.com/premium_photo-1664648184178-c9d4866c56f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpbmVzZSUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+      "id": "ce9f"
+    },
+    {
+      "name": "American",
+      "description": "sample",
+      "active": "No",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-american-cuisine_52683-83633.jpg",
+      "id": "d54d"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Food Town",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "address": "Abbey Street, Berkshire",
+      "contact": "27287",
+      "id": "b042"
+    },
+    {
+      "name": "Green Leaf Hotel",
+      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "address": "Northwest street, Skyville",
+      "contact": "37484",
+      "id": "b62f"
+    },
+    {
+      "name": "Kignston Hotel",
+      "image": "https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/16x9/golden-dragon.jpg/jcr:content/renditions/cq5dam.web.512.512.jpeg",
+      "address": "Dudley Road, Hillwood",
+      "contact": "7448",
+      "id": "7011"
+    },
+    {
+      "id": "7231",
+      "name": "Aromas House",
+      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "address": "2-32,bangalore, india",
+      "contact": "82393334"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 101,
+      "date": "2020-07-01",
+      "status": "Delivered",
+      "amount": 1000,
+      "userId": "C104",
+      "id": "7291"
+    },
+    {
+      "orderId": 102,
+      "date": "2020-07-02",
+      "status": "Delivered",
+      "amount": 2000,
+      "userId": "C102",
+      "id": "35f6"
+    },
+    {
+      "orderId": 103,
+      "date": "2020-07-03",
+      "status": "Delivered",
+      "amount": 3000,
+      "userId": "C104",
+      "id": "80e6"
+    },
+    {
+      "orderId": 104,
+      "date": "2020-07-04",
+      "status": "Delivered",
+      "amount": 4000,
+      "userId": "C101",
+      "id": "5b6c"
+    },
+    {
+      "orderId": 105,
+      "date": "2020-07-05",
+      "status": "Delivered",
+      "amount": 5000,
+      "userId": "C101",
+      "id": "0c36"
+    },
+    {
+      "orderId": 106,
+      "date": "2020-07-06",
+      "status": "Delivered",
+      "amount": 6000,
+      "userId": "C106",
+      "id": "9ebd"
+    },
+    {
+      "orderId": 107,
+      "date": "2020-07-07",
+      "status": "Delivered",
+      "amount": 7000,
+      "userId": "C102",
+      "id": "9ec7"
+    },
+    {
+      "orderId": 108,
+      "date": "2020-07-08",
+      "status": "Delivered",
+      "amount": 8000,
+      "userId": "C103",
+      "id": "7e82"
+    },
+    {
+      "orderId": 109,
+      "date": "2020-07-09",
+      "status": "Delivered",
+      "amount": 9000,
+      "userId": "C102",
+      "id": "4528"
+    },
+    {
+      "orderId": 110,
+      "date": "2020-07-10",
+      "status": "Delivered",
+      "amount": 10000,
+      "userId": "C104",
+      "id": "f02e"
+    }
+  ],
+  "users": [
+    {
+      "userId": "C101",
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "contact": "9876543210",
+      "id": "C101"
+    },
+    {
+      "userId": "C102",
+      "name": "Emma Smith",
+      "email": "emma.smith@gmail.com",
+      "contact": "9876543211",
+      "id": "C102"
+    },
+    {
+      "userId": "C103",
+      "name": "Michael Johnson",
+      "email": "michael.j@gmail.com",
+      "contact": "9876543212",
+      "id": "C103"
+    },
+    {
+      "userId": "C104",
+      "name": "Sarah Wilson",
+      "email": "sarah.w@gmail.com",
+      "contact": "9876543213",
+      "id": "C104"
+    },
+    {
+      "userId": "C105",
+      "name": "James Brown",
+      "email": "james.b@gmail.com",
+      "contact": "9876543214",
+      "id": "C105"
+    },
+    {
+      "userId": "C106",
+      "name": "Lisa Anderson",
+      "email": "lisa.a@gmail.com",
+      "contact": "9876543215",
+      "id": "C106"
+    },
+    {
+      "userId": "C107",
+      "name": "Robert Taylor",
+      "email": "robert.t@gmail.com",
+      "contact": "9876543216",
+      "id": "C107"
+    },
+    {
+      "userId": "C108",
+      "name": "Emily Davis",
+      "email": "emily.d@gmail.com",
+      "contact": "9876543217",
+      "id": "C108"
+    },
+    {
+      "userId": "C109",
+      "name": "David Miller",
+      "email": "david.m@gmail.com",
+      "contact": "9876543218",
+      "id": "C109"
+    },
+    {
+      "userId": "C110",
+      "name": "Jessica Lee",
+      "email": "jessica.l@gmail.com",
+      "contact": "9876543219",
+      "id": "C110"
+    }
+  ]
+}
