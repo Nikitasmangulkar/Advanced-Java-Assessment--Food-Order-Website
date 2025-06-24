@@ -4,6 +4,7 @@ async function loadAllCategories() {
     list_Categories = await fetch("http://localhost:3000/categories")
         .then(response => response.json())
         .catch(error => console.log(error.message))
+    console.log(list_Categories);
        
 
     for (var i = 0; i < list_Categories.length; i++) {

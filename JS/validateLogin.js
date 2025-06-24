@@ -14,7 +14,7 @@ function validateLogIn() {
 }
 
 var welcome = document.getElementById('userName');
-console.log(welcome);
+//console.log(welcome);
 welcome.textContent = 'Welcome '; 
 welcome.textContent += JSON.parse(localStorage.getItem("user")).username + '!';
 

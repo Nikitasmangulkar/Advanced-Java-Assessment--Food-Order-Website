@@ -8,7 +8,8 @@ if (form) {
         // Get the values from the input fields
         var category = document.getElementById("category").value;
         var desc = document.getElementById("desc").value;
-        var isActive = document.getElementById("is_available").checked ? "Yes" : "No";
+        var Active = document.getElementById("Active").checked ? "Yes" : "No";
+        var image = document.getElementById("categoryimg").value;
 
         if (category === "") {
             alert("Please select a valid category option.");
@@ -16,10 +17,11 @@ if (form) {
         }
 
         // Create a new category object
-        var newCatgory = {
+        var newCategory = {
             name: category,
-            isActive: isActive,
             description : desc,
+            active: Active,
+            image: image,
         };
 
         
@@ -28,7 +30,7 @@ if (form) {
         const response = await fetch("http://localhost:3000/categories", 
             {
                 method: 'POST',
-                body: JSON.stringify(newCatgory) // Convert the food item object to a JSON string
+                body: JSON.stringify(newCategory) // Convert the food item object to a JSON string
             },
             {
                 headers: {

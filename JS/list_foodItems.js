@@ -4,7 +4,7 @@ async function loadAllFoodItems() {
     list_FoodItems = await fetch("http://localhost:3000/foodItems")
         .then(response => response.json())
         .catch(error => console.log(error.message))
-
+    console.log(list_FoodItems);
     for (var i = 0; i < list_FoodItems.length; i++) {
         var foodItem = list_FoodItems[i]
         addfoodItem(foodItem, i + 1)
@@ -14,7 +14,8 @@ async function loadAllFoodItems() {
 // Function to add one product to the table
 function addfoodItem(newFoodItem, Number) {
     var foodItemsTable = document.getElementById("foodItemsTable")
-    var body = document.querySelector("tbody")
+    var body = document.querySelector("tbody");
+    console.log("Inside List Food item Function");
 
     row = document.createElement("tr")
 
@@ -33,7 +34,6 @@ function addfoodItem(newFoodItem, Number) {
 
     body.appendChild(row)
     foodItemsTable.appendChild(body)
-    console.log("Food item added successfully")
 }
 
 
