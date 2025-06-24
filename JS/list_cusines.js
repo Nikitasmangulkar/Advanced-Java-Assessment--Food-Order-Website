@@ -4,6 +4,7 @@ async function loadAllCuisine() {
     list_Cuisine = await fetch("http://localhost:3000/cuisines")
         .then(response => response.json())
         .catch(error => console.log(error.message))
+        console.log(list_Cuisine);
 
     for (var i = 0; i < list_Cuisine.length; i++) {
         var foodItem = list_Cuisine[i]
